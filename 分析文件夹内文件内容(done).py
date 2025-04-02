@@ -6,7 +6,7 @@ import openpyxl
 from openpyxl.styles import Font, numbers
 
 FILE_TYPES = {
-    "图片": {"png", "jpg", "jpeg", "gif", "bmp", "heif", "webp", "tiff","heic"},
+    "图片": {"png", "jpg", "jpeg", "gif", "bmp", "heif", "webp", "tiff","heic","arw"},
     "视频": {"mp4", "mov", "avi", "mkv", "flv", "m4v", "wmv", "mpeg"},
     "音频": {"mp3", "m4a", "wav", "flac", "aac", "ogg", "wma"},
     "文档": {"pdf", "doc", "docx", "ppt", "pptx", "txt", "md"},
